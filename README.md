@@ -32,7 +32,7 @@ Multiply each of them by random numbers between 0.3 and 1.0.
 Once the validation sets consisting of 1,563 signals are created, the remaining audio clips from the development set compose the train set.
 
 ## Acknowledge
-In our process, we study a variety of important projects, including:
+In our process, we study an important project:
   
 https://github.com/JupiterEthan/GCRN-complex.
   
