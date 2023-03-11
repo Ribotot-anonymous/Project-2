@@ -2,7 +2,12 @@
   
 ## Model for HAD-ANC
 ### Gated convolutional recurrent network (GCRN) for HAD-ANC
-Description of our PyTorch implementation of GCRN. 
+Description of our PyTorch implementation of GCRN.
+  
+We uploded 2 pre-trained GCRNs for HAD-ANC.
+  
+$GCRN_{1}$
+$GCRN_{2}$
 
 ## Subscription of train and validation set preparation  
 ### 1. Download 16 kHz noise signal
