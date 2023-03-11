@@ -2,7 +2,7 @@
   
 ## Model for HAD-ANC
   
-## Subscription of development set preparation  
+## Subscription of train and validation set preparation  
 ### 1. Download 16 kHz noise signal
 Download DEMAND https://zenodo.org/record/1227121#.ZAxCu3ZByUk
   
