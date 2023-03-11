@@ -5,8 +5,8 @@ random.seed(3)
 
 idx = 1
 
-save_path1 = "demand_ms_snsd_train/"
-save_path2 = "demand_ms_snsd_val/"
+train_dir = "train"
+validation_dir = "val"
 
 path = "ANC"
 dir_list = os.listdir(path)
@@ -38,10 +38,10 @@ for dir_nm in dir_list:
             if idx % 10 == 0:
                 rand_num = random.uniform(0.3, 0.99)
                 x_cut = x_cut * rand_num
-                sf.write("demand_ms_snsd_val/"+save_nm, x_cut, fs)
+                sf.write(validation_dir+"/"+save_nm, x_cut, fs)
                 
             else:
-                sf.write("demand_ms_snsd_train/"+save_nm, x_cut, fs)
+                sf.write(train_dir+"/"+save_nm, x_cut, fs)
             idx += 1
             
             
