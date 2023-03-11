@@ -1,7 +1,7 @@
 # HAD-ANC: A Hybrid System Comprising an Adaptive Filter and Deep Neural Networks for Active Noise Control ANC system  
   
 ## Model for HAD-ANC
-### Gated convolutional recurrent network (GCRN)
+### Gated convolutional recurrent network (GCRN) for HAD-ANC
 Description of our PyTorch implementation of GCRN. 
 
 ## Subscription of train and validation set preparation  
