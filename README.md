@@ -1,6 +1,10 @@
 # HAD-ANC: A Hybrid System Comprising an Adaptive Filter and Deep Neural Networks for Active Noise Control ANC system  
   
 ## Model for HAD-ANC
+Gated convolutional recurrent network is used for HAD-ANC.
+  
+
+  
   
 ## Subscription of train and validation set preparation  
 ### 1. Download 16 kHz noise signal
@@ -23,6 +27,9 @@ Multiply each of them by random numbers between 0.3 and 1.0.
 ### 4. Create train set
 Once the validation sets consisting of 1,563 signals are created, the remaining audio clips from the development set compose the train set.
 
-## Copyright
-We modified GCRN from https://github.com/JupiterEthan/GCRN-complex.
+## Acknowledge
+In our process, we study a variety of important projects, including:
   
+https://github.com/JupiterEthan/GCRN-complex.
+  
+Thanks for authors to open source code!
