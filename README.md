@@ -8,6 +8,7 @@
 ###### 1. Download 16 kHz noise signal
 We used DEMAND https://zenodo.org/record/1227121#.ZAxCu3ZByUk
   
-and MS-SNSD https://github.com/microsoft/MS-SNSD
-
+and MS-SNSD https://github.com/microsoft/MS-SNSD.
+  
+Note that exclude labeled "babble" in [noise train](https://github.com/microsoft/MS-SNSD/tree/master/noise_train) and [ MS-SNSD](https://github.com/microsoft/MS-SNSD/tree/master/noise_test) in MS-SNSD.
 ###### 2. 
