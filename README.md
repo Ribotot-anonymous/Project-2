@@ -4,7 +4,7 @@
   
 ## Subscription of development set preparation  
 ### 1. Download 16 kHz noise signal
-We used DEMAND https://zenodo.org/record/1227121#.ZAxCu3ZByUk
+Download DEMAND https://zenodo.org/record/1227121#.ZAxCu3ZByUk
   
 and MS-SNSD https://github.com/microsoft/MS-SNSD.
   
