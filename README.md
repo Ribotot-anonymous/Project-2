@@ -4,10 +4,11 @@
 ### Gated convolutional recurrent network (GCRN) for HAD-ANC
 Description of our PyTorch implementation of GCRN.
   
-We uploded 2 pre-trained GCRNs for HAD-ANC.
+We uploaded 2 pre-trained GCRNs for HAD-ANC.
   
-$GCRN_{1}$
-$GCRN_{2}$
+$GCRN_{1}$ follows the adaptive filter to handle nonlinear distortion by reducing the residual error of linear filtering and models the reverse of both loudspeaker and secondary path.
+  
+$GCRN_{2}$ models the loudspeaker and secondary path to force the adaptive filter to estimate the primary path.
 
 ## Subscription of train and validation set preparation  
 ### 1. Download 16 kHz noise signal
