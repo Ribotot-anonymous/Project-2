@@ -21,4 +21,4 @@ Select the audio clips indexed by a multiple of 10 in the development set.
 Multiply each of them by random numbers between 0.3 and 1.0.
 
 ### 4. Creating train set
-Once the validation sets are created, the remaining audio clips from the development set compose the train set.
+Once the validation sets consisting of 1,563 signals are created, the remaining audio clips from the development set compose the train set.
