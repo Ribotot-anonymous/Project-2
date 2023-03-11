@@ -11,8 +11,14 @@ and MS-SNSD https://github.com/microsoft/MS-SNSD.
 Note that exclude labeled as "babble" signal in [noise train](https://github.com/microsoft/MS-SNSD/tree/master/noise_train) and [noise_test](https://github.com/microsoft/MS-SNSD/tree/master/noise_test) of MS-SNSD.
 
 ### 2. Creating development set
-Split into six-second all signals audio clips.
-Normalize all 15639 clips.
+Split all signals into 6-second audio clips and index them in order.
+  
+Then normalize all 15639 clips.
 
 ### 3. Creating validation set
-### 4. Creating test set
+Select the audio clips indexed by a multiple of 10 in the development set.
+  
+Multiply each of them by random numbers between 0.3 and 1.0.
+
+### 4. Creating train set
+Once the validation sets are created, the remaining audio clips from the development set compose the train set.
