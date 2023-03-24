@@ -1,5 +1,10 @@
 # HAD-ANC: A Hybrid System Comprising an Adaptive Filter and Deep Neural Networks for Active Noise Control ANC system  
-  
+
+$# Announcement
+
+This GitHub account was created to comply with INTERSPEECH's double-blind regulations, and it will be relocated to a different address once the acceptance results are published.
+
+
 ## Model for HAD-ANC
 ### Gated convolutional recurrent network (GCRN) for HAD-ANC
 Description of our PyTorch implementation of GCRN.
