@@ -6,7 +6,7 @@ For more information about this project, please refer to the following paper:
 
     @inproceedings{park23e_interspeech,
       author={JungPhil Park and Jeong-Hwan Choi and Yungyeo Kim and Joon-Hyuk Chang},
-      title={{HAD-ANC: A Hybrid System Comprising an Adaptive Filter and Deep Neural Networks for Active Noise Control}},
+      title={{HAD-ANC}: A Hybrid System Comprising an Adaptive Filter and Deep Neural Networks for Active Noise Control},
       year=2023,
       booktitle={Proc. INTERSPEECH 2023},
       pages={2513--2517},
